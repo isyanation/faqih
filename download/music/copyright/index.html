@@ -1,19 +1,19 @@
 <html>
 <head>
-<title>Video</title>
+<title>Download File</title>
 <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet"> 
 <script language='javascript'>
 //<![CDATA[
 var key = window.location.href.split("?filename=")[1].replace("","")
 var urls={
     'TDJ+NFI+cover.mp3':'https://faqih.tk/files/TDJ NFI cover.mp3',
-    'KBY+NFI+cover.mp3':'https://faqih.tk/files/KBY NFI cover.mp3'
+    'tdj+midi+c.mid':'https://faqih.tk/files/tdj midi c.mid'
 }
 if(key){
     if(urls[key]){
         window.location.href=urls[key]
     }else{
-        document.write("<span style='color: blue;'>ID Download </span><span style='color: red'>'"+key+"'</span><span style='color: blue;'> tidak ditemukan :(</span>");
+        document.write("<span style='color: blue;'>File Download </span><span style='color: red'>'"+key+"'</span><span style='color: blue;'> tidak ditemukan :(</span>");
     }
 }
 //]]>
