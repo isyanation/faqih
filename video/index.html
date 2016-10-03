@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Video</title>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet"> 
+<script language='javascript'>
+//<![CDATA[
+var key = window.location.href.split("?vid=")[1].replace("/","")
+var urls={
+    'tdj':'https://faqih.tk/yt-official', 
+    'kby':"https://faqih.tk/yt-official",
+    'mimvi':"https://faqih.tk/yt-official"
+}
+if(key){
+    if(urls[key]){
+        window.location.href=urls[key]
+    }else{
+        document.write("Video dengan id '"+key+"' tidak ditemukan :(");
+    }
+}
+//]]>
+</script>
+</head>
+<body>
+<style>
+font-family: 'Baloo Bhai', cursive;
+</style>
+<span>NFI-Arts Videos (Youtube)</span>
+</body>
+</html>
