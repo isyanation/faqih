@@ -1,1 +1,44 @@
-<b>Go BACK!</b>
+<html>
+<head>
+<title>Video</title>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet"> 
+<script language='javascript'>
+//<![CDATA[
+var key = window.location.href.split("?filename=")[1].replace("","")
+var urls={
+    'TDJ+NFI+cover.mp3':'https://faqih.tk/files/TDJ NFI cover.mp3',
+    'KBY+NFI+cover.mp3':'https://faqih.tk/files/KBY NFI cover.mp3'
+}
+if(key){
+    if(urls[key]){
+        window.location.href=urls[key]
+    }else{
+        document.write("<span style='color: blue;'>ID Download </span><span style='color: red'>'"+key+"'</span><span style='color: blue;'> tidak ditemukan :(</span>");
+    }
+}
+//]]>
+</script>
+    <br/>
+</head>
+<body>
+<style>
+* {
+  box-sizing: border-box; }
+ 
+span {
+  padding: 0;
+  margin: 0;
+  font-family: "Baloo Bhai", "Baloo Bhai", Helvetica, Arial, sans-serif;
+  font-size: 1.45vw;
+  line-height: 1.5;
+  color: #373F43; }
+
+a {
+  color: #1662AE;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+</style>
+    <span><span style='color: red'>GO </span><span style='color: blue'>Tube</span></span>
+</body>
+</html>
