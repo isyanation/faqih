@@ -14,7 +14,7 @@ if(key){
     if(urls[key]){
         window.location.href=urls[key]
     }else{
-        document.write("Video dengan id '"+key+"' tidak ditemukan :(");
+        document.write("<span>Video dengan id '"+key+"' tidak ditemukan :(</span>");
     }
 }
 //]]>
@@ -26,7 +26,7 @@ if(key){
 * {
   box-sizing: border-box; }
  
-body {
+span {
   padding: 0;
   margin: 0;
   font-family: "Baloo Bhai", "Baloo Bhai", Helvetica, Arial, sans-serif;
